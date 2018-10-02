@@ -17,4 +17,27 @@
   width: 100px;
   background-color: LightGrey;
   margin: 5px;
+  text-align: center;
+  color: black;
+}
+
+.matched {
+  height: 150px;
+  width: 100px;
+  background-color: DarkGreen;
+  margin: 5px;
+  text-align: center;
+  color: White;
+}
+
+#bottom {
+  display: flex;
+}
+
+#reset {
+  flex: 1;
+}
+
+#score {
+  width: 750px;
 }

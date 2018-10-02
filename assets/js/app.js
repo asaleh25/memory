@@ -17,7 +17,7 @@ import $ from "jquery";
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
 
-import memory_init from "./memory";
+import memory_init from "./MemoryGame";
 
 window.addEventListener("load", (_ev) => {
   let root = document.getElementById('root');
