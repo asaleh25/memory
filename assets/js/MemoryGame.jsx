@@ -78,16 +78,6 @@ class Memory extends React.Component {
     this.get_tile(id).selected = select;
   }
 
-  count_matches() {
-    let count = 0;
-    for(let i=0; i<16; i++) {
-      if (this.get_tile(i).matched === true) {
-        count = count + 1;
-      }
-    }
-    return count;
-  }
-
   generate_tile_images() {
     let tileImages = [];
     let onClick = this.on_tile_click;
